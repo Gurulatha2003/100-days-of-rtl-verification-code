@@ -1,3 +1,4 @@
+`include "cmp4bit.v"
 module cmp4bit_test(a,b,x,y,z);
 input wire x,y,z;
 output reg [3:0] a,b;
