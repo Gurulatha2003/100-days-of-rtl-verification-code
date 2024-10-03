@@ -1,4 +1,4 @@
-'include "gatesusingencoder.v"
+`include "gatesusingencoder.v"
 module gateusingencoder_tb(i,and_g,or_g,not_g,nor_g,nand_g,xor_g,xnor_g);
 output reg [3:0]i;
 input wire and_g,or_g,not_g,nor_g,nand_g,xor_g,xnor_g;
