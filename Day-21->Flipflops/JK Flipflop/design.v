@@ -1,4 +1,3 @@
-
 module jkff(clk,j,k,q);
   input wire clk,j,k;
   output reg q;
