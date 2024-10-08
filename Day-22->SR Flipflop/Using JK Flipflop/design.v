@@ -1,6 +1,5 @@
 module srff_using_jkff(input s,r,clk,output q);
 wire j,k;
-reg q;
   assign j=s;
   assign k=r;
   jk_ff jkff(j,k,clk,q);
