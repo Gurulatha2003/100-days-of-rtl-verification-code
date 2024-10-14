@@ -10,7 +10,7 @@ input wire clk, load;
 input wire [3:0]a;
 output reg [3:0]qn;
 wire [8:0]w;
-assign load=1'be;
+assign load=1'b0;
 dff nl(a[0],clk,qn[0]);
   assign w[0]=(load&qn[0]);
   assign w[l]=(~load&a[1]);
