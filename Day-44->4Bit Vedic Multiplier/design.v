@@ -1,4 +1,5 @@
-module fulladder(a, b, c, S, co);
+`include "vedic.v"
+ module fulladder(a, b, c, S, co);
     input wire a, b, c;
     output reg S, co;
     assign S = (a ^ b) ^ c;
